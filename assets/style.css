@@ -1,0 +1,88 @@
+
+:root {
+    --HeaderAndFooterColor: darkslateblue;
+}
+
+body {
+    background-color:lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: var(--HeaderAndFooterColor);
+    display: flex;
+}
+
+header > h1 {
+    text-align: left;
+    justify-content: flex-start;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    background-color: turquoise;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: white;
+    text-decoration:none;
+    font-size: 35px;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 5px solid turquoise;
+}
+
+ul > li {
+    float: right;
+	display: inline-block;
+    margin: 40px 89px 50px 30px;
+}
+
+.nav {
+    width: 71%;
+    color: white;
+}
+
+.topImage {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://cdn.wallpapersafari.com/95/35/d2YVen.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 65%;
+    float: right;
+}
+
+.sidebar {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    float: left;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    width: 30%;
+    border-right: 3px solid black;
+}
+
+footer {
+    background-color: var(--HeaderAndFooterColor);
+    padding: 1px;
+    color: white;
+    text-align: center;
+    display: block;
+    clear:both
+}
