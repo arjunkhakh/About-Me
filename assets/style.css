@@ -1,12 +1,17 @@
 
+/* Declared Variables */
 :root {
     --HeaderAndFooterColor: darkslateblue;
 }
+
+/* CSS for the body tag */
 
 body {
     background-color:lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* CSS for the header tag */
 
 header {
     background-color: var(--HeaderAndFooterColor);
@@ -23,6 +28,8 @@ header > h1 {
     padding: 5px;
 }
 
+/* All CSS regarding the Navigation bar within the header */
+
 ul {
     list-style-type: none;
 }
@@ -38,7 +45,7 @@ ul a {
 
 ul > li {
     float: right;
-	display: inline-block;
+
     margin: 40px 89px 50px 30px;
 }
 
@@ -46,6 +53,8 @@ ul > li {
     width: 71%;
     color: white;
 }
+
+/* Regarding the image under the header*/
 
 .topImage {
     height: 250px;
@@ -56,27 +65,95 @@ ul > li {
     background-position: center;
 }
 
+/* All CSS code regarding the Cards and Sidebares of About Me and Contact Sectuib */
+
 .card {
-    margin-bottom: 30px;
-    display: inline-block;
     color: black;
-    padding: 10px;
     text-align: center;
     width: 65%;
     float: right;
+    margin-bottom: inherit;
+    padding: 5px 10px 40px 10px;
 }
+
 
 .sidebar {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
     float: left;
-    display: inline-block;
     color: black;
-    padding: 10px;
     width: 30%;
     border-right: 3px solid black;
+    margin-bottom: 12px;
+    padding: 5px 10px 100px 10px;
+    margin-bottom: 130px;
+    padding: 5px 10px 70px 10px;
 }
+
+.card2 {
+    color: black;
+    padding: 5px 10px 40px 10px;
+    text-align: center;
+    width: 65%;
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: inherit;
+    padding: 5px 10px 40px 10px;
+}
+
+.sidebar2 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    float: left;
+    color: black;
+    padding: 5px 10px 70px 10px;
+    width: 30%;
+    border-right: 3px solid black;
+    margin-bottom: 130px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    padding: 5px 10px 70px 10px;
+}
+
+.card3 {
+    border: dashed black;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-width: 3px;
+    width: 90%;
+    display: block;
+    clear: both;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.card-header {
+    border: 2px solid black;
+    padding: 5px;
+    position: relative;
+    margin-top: -25px;
+    width:20%;
+    background-color: lightgray;
+    align-items: center;
+    display: inline-flex;
+    font-size: 30px;
+    font-family: "Helvetica";
+}
+
+/* CSS for the button under the Contact Me section */
+
+.button {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* CSS for the footer */
 
 footer {
     background-color: var(--HeaderAndFooterColor);
