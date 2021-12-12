@@ -117,7 +117,6 @@ ul > li {
     margin-bottom: 130px;
     margin-top: 50px;
     margin-bottom: 130px;
-    padding: 5px 10px 70px 10px;
 }
 
 .card3 {
@@ -139,11 +138,31 @@ ul > li {
     position: relative;
     margin-top: -25px;
     width:20%;
-    background-color: lightgray;
+    background-color: turquoise;
     align-items: center;
     display: inline-flex;
     font-size: 30px;
     font-family: "Helvetica";
+}
+
+.firstImage {
+    display: inline-block;
+    border: 10px solid var(--HeaderAndFooterColor);
+}
+
+.secImage {
+    display: inline-block;
+    border: 10px solid var(--HeaderAndFooterColor);
+    width: 388px;
+    height: 388px;
+}
+
+.firstImage:hover{
+    opacity: 0.4;
+}
+
+.secImage:hover{
+    opacity: 0.4;
 }
 
 /* CSS for the button under the Contact Me section */
@@ -153,6 +172,10 @@ ul > li {
     font-size: 25px;
 }
 
+.button:hover{
+    background-color: darkgrey;
+}
+
 /* CSS for the footer */
 
 footer {
@@ -160,6 +183,72 @@ footer {
     padding: 1px;
     color: white;
     text-align: center;
-    display: block;
-    clear:both
+    position: sticky;
+    margin-top: 1000px;
 }
+
+/* Media Queries CSS */
+
+@media only screen and (max-width: 1350px) {
+    body {
+      background-color: lightblue;
+      font-size: 15px;
+      display: inline;
+      float: both;
+    }
+
+    .sidebar {
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        float: both;
+        color: black;
+        width: 100%;
+        border-bottom: 3px solid black;
+        margin-bottom: 12px;
+        padding: 5px 10px 100px 10px;
+        margin-bottom: 10px;
+        padding: 5px 10px 70px 10px;
+    }
+
+    .sidebar2 {
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        float: both;
+        color: black;
+        width: 100%;
+        border-bottom: 3px solid black;
+        margin-bottom: 12px;
+        padding: 5px 10px 100px 10px;
+        margin-bottom: 10px;
+        padding: 5px 10px 70px 10px;
+    }
+
+    .card {
+        color: black;
+        margin-left: 130px;
+        width: 65%;
+        float: inherit;
+        margin-bottom: 100px;
+        padding: 5px 10px 40px 10px;
+    }
+
+    .card2 {
+        color: black;
+        padding: 5px 10px 40px 10px;
+        text-align: center;
+        width: 65%;
+        float: left;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 130px;
+        margin-bottom: inherit;
+        padding: 5px 10px 40px 10px;
+    }
+
+    footer {
+        margin-top: 2000px;
+    }
+  }
